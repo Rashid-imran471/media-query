@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img-row
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    img
+    {
+        margin: 10px;
+        width:30%;
+    }
+    @media screen and (max-width:800px)
+    {
+        img
+        {
+            width:45%;
+        }
+    }
+    @media screen and (max-width:500px)
+    {
+        img
+        {
+            width:100%;
+        }
+    }
+  
+</style>
+
+<body>
+    <div class="img-row">
+    
+        <img src="https://fastly.picsum.photos/id/806/200/300.jpg?hmac=IA-MNmLr1ua-cWJTayRkIMVB9ZU-DrSrJUB_8gi-Xpw"
+            alt="">
+
+        <img src="https://fastly.picsum.photos/id/806/200/300.jpg?hmac=IA-MNmLr1ua-cWJTayRkIMVB9ZU-DrSrJUB_8gi-Xpw"
+            alt="">
+   
+        <img src="https://fastly.picsum.photos/id/806/200/300.jpg?hmac=IA-MNmLr1ua-cWJTayRkIMVB9ZU-DrSrJUB_8gi-Xpw"
+            alt="">
+  
+</div>
+
+</body>
+
+</html>
